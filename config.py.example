@@ -1,0 +1,16 @@
+#!/usr/bin/env python
+
+# Name     : googledrive-mysql-backup
+# Author   : Gabriel C <shell.cooking@gmail.com>, cgFlamer @ github
+# Requires : python
+
+backup = dict(
+    mysql_user 		= '', # mysql user
+    mysql_pass 		= '', # mysql password
+    mysql_dbse 		= '', # mysql database name
+    backup_path 	= '', # backup dir
+    files_pattern 	= 'backup-files-', # prefix / pattern of zip archive for files
+    dbase_pattern 	= 'backup-db-', # prefix / pattern of zip archive for database
+    google_user		= '', # google account username
+    google_pass		= ''  # google account password
+)

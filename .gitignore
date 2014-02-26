@@ -1,0 +1,6 @@
+backups/
+*.zip
+config.py
+*.pyc
+client_secrets.json
+build/
